@@ -1,0 +1,29 @@
+primavera - style-farben:
+
+L1 blau
+stark:	0002fe
+schwach	d2d2ff
+
+L2 mint-gruen
+stark:	85fd82
+schwach	d8fdd7
+
+L3 zitronengelb
+stark:	fefd03
+schwach	fffeae	
+
+L4 rot
+stark: 	fd0100
+schwach	fdb0b0
+
+L5 türkis
+stark:	0bb4fa
+schwach	c0ecff
+
+L6 oliv
+stark:	44860e
+schwach	a3c687
+
+L7 ocker 
+stark:	f0c33d
+schwach	fae7ae

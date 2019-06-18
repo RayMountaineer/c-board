@@ -1,0 +1,110 @@
+html, h1, form, fieldset, legend, ol, li {
+	margin: 0;
+	padding: 0;
+}
+/* unvisited link */
+a:link {
+    color: #DB4A11;
+}
+
+/* visited link */
+a:visited {
+    color: #B81A06;
+}
+
+/* mouse over link */
+a:hover {
+   color: #F7BF0F;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #33CC33;
+}
+
+body {
+	 background-image: url("../images/welt_datanetz_1278.jpg");
+	 background-size: 100%;
+	 background-position: top center;
+	 background-repeat: no-repeat;
+	 background-color: #000000;
+	color: #108296;
+	font-family: Arial, Helvetica, sans-serif;
+	  font-size: larger;
+	padding: 20px;
+}
+
+form#login {
+	/*background: rgba(21, 6, 108, 0.66);*/
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	padding: 40px;
+	width: 400px;
+	  background:linear-gradient(25deg, rgba(70, 23, 2, 1), rgba(16, 44, 81, 0.85)); 
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.64);
+	position:absolute;margin:auto;margin-top:-10%;top:50%;margin-left:-25%; left:50%; width:50%;vertical-align:middle;text-align:center;
+}
+
+form#login fieldset {
+	border: none;
+	margin-bottom: 10px;
+	vertical-align:middle;text-align:center;
+}
+form#login fieldset:last-of-type {
+	margin-bottom: 0;
+}
+
+form#login legend {
+	color: #13B3ED;
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 30px;
+	text-shadow: 0 1px 1px #020A5A;
+}
+
+form#login label {
+	float: left;
+	font-size: 13px;
+	width: 110px;
+}
+form#login fieldset fieldset label {
+	background:none no-repeat left 50%;
+	line-height: 20px;
+	padding: 0 0 0 30px;
+	width: auto;
+}
+
+form#login fieldset fieldset label:hover {
+	cursor: pointer;
+}
+
+form#login button {
+	background: #384313;
+	border: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	color: #ffffff;
+	display: block;
+	font: 18px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	text-transform: uppercase;
+}
+form#login button:hover {
+	background: rgb(229, 98, 3);
+/*	background: #1e2506;*/
+	cursor: pointer;
+}
+/*
+form#login input:focus{
+  background-color:#FCE488;
+   font-size: larger;
+}
+*/

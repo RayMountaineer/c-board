@@ -1,0 +1,257 @@
+h3 {
+padding: 3px 5px 5px 3px;
+}
+
+nav {
+    width: 90%;
+}
+nav ul {
+    padding: 0px;
+    margin: 0px;
+
+   /* box-shadow: 2px 2px 2px #dfdfdf;
+    -moz-box-shadow: 2px 2px 2px #dfdfdf;
+    -webkit-box-shadow: 2px 2px 2px #dfdfdf;*/
+}
+
+nav ul:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+nav ul,nav ul li{
+    background-color: #efefef;
+}
+nav ul li {
+    list-style: none;
+    float:left;
+
+  border-right: 1px solid #dfdfdf;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #333;
+    padding: 14px 34px 14px 34px;
+
+    transition: background 0.3s ease-out; /* explorer 10 */
+    -webkit-transition: background 0.3s ease-out; /* chrome & safari */
+    -moz-transition: background 0.3 ease-out; /* firefox */
+    -o-transition: background 0.3 ease-out; /* opera */
+}
+
+nav ul li.cat1:hover a, nav ul li.cat1:hover > ul li a  {
+    background-color: #E6DD00;
+}
+/* wbs start*/
+nav ul li.flagWBS a, nav ul li.flagWBS > ul li a, h3.flagWBS  {
+ background:linear-gradient(25deg,rgba(41, 222, 0, 0.2),rgba(41, 222, 0, 0.7)); 
+	box-shadow: 10px 10px 5px #888888; border-radius: 15px;
+}
+
+
+nav ul li.flagWBS:hover a, nav ul li.flagWBS:hover > ul li a  {
+    background: rgba(41, 222, 0, 0.7);
+	box-shadow: 0px 0px 0px #888888;/
+	
+   
+}
+/* wbs end*/
+
+
+/* questrep start*/
+nav ul li.flagQR a, nav ul li.flagQR > ul li a, h3.flagQR  {
+ background:linear-gradient(25deg,rgba(125,038,205,0.2),rgba(125,038,205,0.7)); 
+	box-shadow: 10px 10px 5px #888888;/* border-radius: 15px;*/
+}
+
+
+nav ul li.flagQR:hover a, nav ul li.flagQR:hover > ul li a  {
+    background: rgba(125,038,205,0.8);
+	box-shadow: 0px 0px 0px #888888;/
+	
+   
+}
+/* questrep end*/
+
+/* I-Message start*/
+nav ul li.flagIM a, nav ul li.flagIM > ul li a, h3.flagIM {
+      background:linear-gradient(25deg, rgba(255,165,000,0.2), rgba(255,165,000,0.7)); 
+	box-shadow: 10px 10px 5px #888888;
+}
+nav ul li.flagIM:hover a, nav ul li.flagIM:hover > ul li a {
+    background:/*linear-gradient(0deg, yellow 5%, orange 70%)*/ rgba(255,165,000,0.7);
+}
+/*I-Message end*/
+
+/*Appell start*/
+nav ul li.flagAP a, nav ul li.flagAP > ul li a, h3.flagAP {
+     background:linear-gradient(25deg,rgba(255,048,048,0.2), rgba(255,048,048,0.8)); 
+	box-shadow: 10px 10px 5px #888888;
+}
+nav ul li.flagAP:hover a, nav ul li.flagAP:hover > ul li a {
+    background: rgba(255,048,048,0.8);
+}
+
+/* Appell end*/
+
+/* input-tag vom Eingabefeld wbs START*/
+nav ul li.flagWBS input,  nav ul li.flagWBS > ul li input  {
+ background:rgba(41, 222, 0, 0.7); height: 20px; width: 98%; font-size: 20;
+	box-shadow: 2px 2px 2px #888888; padding-left: 2%;/* border-radius: 15px;*/
+}
+
+/* input-tag vom Eingabefeld QR START*/
+nav ul li.flagQR input,  nav ul li.flagQR > ul li input  {
+ background:rgba(125,038,205,0.2); height: 20px; width: 98%; font-size: 20;
+	box-shadow: 2px 2px 2px #888888; padding-left: 2%;/* border-radius: 15px;*/
+}
+
+
+/* input-tag vom Eingabefeld IM START*/
+nav ul li.flagIM input,  nav ul li.flagIM > ul li input  {
+ background:rgba(255,165,000,0.2); height: 40px; width: 98%; font-size: 20;
+	box-shadow: 2px 2px 2px #888888; padding-left: 2%;/* border-radius: 15px;*/
+}
+
+
+/* input-tag vom Eingabefeld AP START*/
+nav ul li.flagAP input,  nav ul li.flagAP > ul li input  {
+ background:rgba(255,048,048,0.2); height: 40px; width: 98%; font-size: 20;
+	box-shadow: 2px 2px 2px #888888;padding-left: 2%;/* border-radius: 15px;*/
+}
+
+
+/* input-tag vom Eingabefeld ENDE*/
+
+
+
+nav ul li:hover > a {
+    color: #FAFAFA;
+}
+nav ul li:hover > ul {
+    visibility: visible;
+}
+
+nav ul li ul{
+    display: inline;
+    visibility: hidden;
+    position: absolute;
+    padding:0px;
+}
+nav ul li ul li{
+	float: none;
+}
+nav ul li ul li a {
+    color: #FAFAFA;
+}
+nav ul li ul li a:hover{
+	color: #333;
+	background-color: #FAFAFA !important;
+}
+
+.wbsL1 {
+border: 1px solid #2a9b07;
+height: 20px;
+font-size: 14px;
+font-family: tahoma;
+background-color: #2a9b07;
+padding: 2px 2px ;
+	padding-right: 5px;
+	
+padding-left: 2%;
+}
+.wbsL1:hover {
+border: 1px solid #2a9b07;
+height: 20px;
+font-size: 14px;
+font-family: tahoma;
+background-color: #2a9b07;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+padding-left: 2%;
+}
+
+.wbsL2 {
+border: 1px solid #F0C33D;
+height: 20px;
+font-size: 14px;
+font-family: tahoma;
+background-color: #F0C33D;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+/*margin-top: 1px;*/
+padding-left: 2%;
+}
+
+
+.wbsL3 {
+border: 1px solid #714FF8;
+height: 20px;
+font-size: 14px;
+font-family: tahoma;
+background-color: #714FF8;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+padding-left: 2%;
+}
+
+
+.wbsL4 {
+border: 1px solid #FA0D30;
+height: 20px;
+font-size: 14px;
+font-family: tahoma;
+background-color: #FA0D30;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+padding-left: 2%;
+}
+
+
+.wbsL5 {
+border: 1px solid #fa550d;
+height: 20px;
+font-size: 14px;
+font-family: tahoma;
+background-color: #fa550d;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+padding-left: 2%;
+}
+
+
+.wbsL6 {
+border: 1px solid #ffdf04;
+height: 20px;
+font-size: 14px;
+font-family: tahoma; 
+background-color: #ffdf04;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+padding-left: 2%;
+}
+
+
+.wbsL7 {
+border: 1px solid #e806f6;
+height: 20px;
+font-size: 14px;
+font-family: tahoma;
+background-color: #e806f6;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+padding-left: 2%;
+}
+

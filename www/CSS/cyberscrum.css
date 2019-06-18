@@ -1,0 +1,223 @@
+
+.item {
+    float: left; 
+    width: 100px; 
+    height: auto;
+   margin: 2px;
+    padding: 2px;
+     display:block;
+    position: relative;
+    border: 1px solid #41D813;
+	}
+
+.movingdiv {
+    float: left; 
+    width: 777px; 
+    height:444px;
+    margin: 15px;
+    padding: 10px;
+    border: 3px solid #b80000;
+    background-color:#F8A427;
+}	
+.droppingarea {
+    float: left; 
+    width: 777px; 
+    height: auto;
+    min-height: 5em;
+ /*   margin: 15px;
+    padding: 10px;*/
+    border: 3px solid #b20000;
+    background-color:gainsboro;
+}	
+	
+.item {
+    float: left; 
+    width: 20em; 
+    
+    height: auto;
+    min-height: 3em;
+    margin: 2px;
+    padding: 2px;
+     display:block;
+    position: relative;
+    border: 1px solid #41D813;
+}
+/*  p {
+    margin: 0px;
+  }*/
+ .DropZone {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: #eee;
+  }
+  
+/*aare below*/
+
+
+.draggable{
+    top: 1em;
+    left: 1em;
+    width: 15em;
+    height: 6em;
+    padding: 1.66em;
+    margin-top: 1em;
+   /*  margin-bottom: 1em;*/
+     margin-right: 1em;
+    z-index: 10;
+    border: 1px solid #34DB29;
+    border-radius: 20px;
+    background: transparent linear-gradient(center top , #FC395B 0%, rgba(212, 193, 93, 0.49) 100%) repeat scroll 0% 0%;
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #FC395B), color-stop(1, #f2ab1e));
+	background:-moz-linear-gradient(top, #FC395B 5%, rgba(212, 193, 93, 0.49));
+	background:-webkit-linear-gradient(top, #FC395B 5%,rgba(212, 193, 93, 0.49));
+	background:-o-linear-gradient(top, #FC395B 5%, rgba(212, 193, 93, 0.49));
+	background:-ms-linear-gradient(top, #FC395B 5%, rgba(212, 193, 93, 0.49));
+	background:linear-gradient(to bottom, #FC395B 5%, rgba(212, 193, 93, 0.49));    
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8), 2px 2px 5px rgba(141, 201, 225, 0.8) inset;
+}
+
+
+
+.draggableAssigned{
+    top: 1em;
+    left: 1em;
+    width: 10em;
+    height: 3em;
+    font-size: 0.85em;
+    padding: 2em;
+ margin-top: 0.3em;
+margin-left: 0.01em;
+margin-right: 0.01em;
+margin-bottom: 0.01em;
+    z-index: 1;
+    display: inline-block;
+    border: 2px solid #FB164E;
+    border-radius: 13px;
+    background: transparent -moz-linear-gradient(center top , #FC395B 0%, rgba(212, 193, 93, 0.49) 100%) repeat scroll 0% 0%;
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #FC395B), color-stop(1, #f2ab1e));
+	background:-moz-linear-gradient(top, #FC395B 5%, rgba(212, 193, 93, 0.49));
+	background:-webkit-linear-gradient(top, #FC395B 5%,rgba(212, 193, 93, 0.49));
+	background:-o-linear-gradient(top, #FC395B 5%, rgba(212, 193, 93, 0.49));
+	background:-ms-linear-gradient(top, #FC395B 5%, rgba(212, 193, 93, 0.49));
+	background:linear-gradient(to bottom, #FC395B 5%, rgba(212, 193, 93, 0.49));    
+       
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8), 2px 2px 5px rgba(138, 197, 102, 0.8) inset;
+}
+
+
+.draggableOwnAssigned{
+    top: 1em;
+    left: 1em;
+    width: 19em;
+    height: 3em;
+    font-size: 0.85em;
+    padding: 2em;
+ margin-top: 1.5em;
+margin-left: 0.01em;
+margin-right: 0.01em;
+margin-bottom: 0.01em;
+    z-index: 1;
+   /* display: inline-block;*/
+    border: 2px solid #DDFB16;
+    border-radius: 13px;
+    background: transparent -moz-linear-gradient(center top , #FC8539 0%, rgba(212, 193, 93, 0.49) 100%) repeat scroll 0% 0%;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #FC8539), color-stop(1, #f2ab1e));
+	background:-moz-linear-gradient(top, #FC8539 5%, rgba(212, 193, 93, 0.49));
+	background:-webkit-linear-gradient(top, #FC8539 5%,rgba(212, 193, 93, 0.49));
+	background:-o-linear-gradient(top, #FC8539 5%, rgba(212, 193, 93, 0.49));
+	background:-ms-linear-gradient(top, #FC8539 5%, rgba(212, 193, 93, 0.49));
+	background:linear-gradient(to bottom, #FC8539 5%, rgba(212, 193, 93, 0.49));    
+        
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8), 2px 2px 5px rgba(138, 197, 102, 0.8) inset;
+}
+
+
+.draggableCompleted{
+     top: 1em;
+    left: 1em;
+    width: 10em;
+    height: 3em;
+    font-size: 0.85em;
+    padding: 2em;
+ margin-top: 0.3em;
+margin-left: 0.01em;
+margin-right: 0.01em;
+margin-bottom: 0.01em;
+    z-index: 1;
+  /*  display: inline-block;*/
+    flex-flow: row wrap;
+	display: inline-flex;
+    border: 2px solid #3CFB16;
+    border-radius: 13px;
+    background: transparent -moz-linear-gradient(center top , #1FBA0F 0%, rgba(212, 193, 93, 0.49) 100%) repeat scroll 0% 0%;
+ 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1FBA0F), color-stop(1, #f2ab1e));
+	background:-moz-linear-gradient(top, #1FBA0F 5%, rgba(212, 193, 93, 0.49));
+	background:-webkit-linear-gradient(top, #1FBA0F 5%,rgba(212, 193, 93, 0.49));
+	background:-o-linear-gradient(top, #1FBA0F 5%, rgba(212, 193, 93, 0.49));
+	background:-ms-linear-gradient(top, #1FBA0F 5%, rgba(212, 193, 93, 0.49));
+	background:linear-gradient(to bottom, #1FBA0F 5%, rgba(212, 193, 93, 0.49));    
+       
+   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8), 2px 2px 5px rgba(138, 197, 102, 0.8) inset;
+}
+	  .dropfieldStart {
+   /* position: absolute;*/
+    top: 140px;
+    left: 20px;
+}
+
+  .dropfield02 {
+   /* position: absolute;*/
+    top: 140px;
+    left: 440px;
+    height: auto;
+}
+.droppable {
+	 width: 18em;
+    height: 6em;
+   
+    padding: 2em;
+    z-index: 0;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0% 0%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8), 2px 2px 5px rgba(0, 0, 0, 0.8) inset;
+    margin-left: auto;
+margin-right: auto;
+margin-top: 3em;
+margin-bottom: 2em;
+}
+.holeclass
+ {
+    width: 18em;
+    height: 6em;
+    padding: 2em;
+    z-index: 0;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0% 0%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8), 2px 2px 5px rgba(0, 0, 0, 0.8) inset;
+    margin: 3em auto 2em;
+	}
+.topic {
+font-family:Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+ font-size: 1.1em;
+ line-height: 1.1em;
+ height: 2.2em;
+ overflow: hidden;
+ color: #F3E337;
+ text-transform: uppercase;
+ font-weight: 600;
+ text-decoration: underline;
+ text-align: center;
+/* padding: 4px;*/
+}
+
+.dscrption{
+font-family:Helvetica,Arial,'DejaVu Sans','Liberation Sans',Freesans,sans-serif;
+ font-size: 1em;
+ line-height: 1em;
+ height: 2em;
+ overflow: hidden;
+}

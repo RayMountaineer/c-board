@@ -1,0 +1,366 @@
+/***
+	KLeines CSS-HOW-to:
+
+	Tag.Class --> greift nur bei den Tags, welche class="Class" beinhalten, z.B: 
+	td.profileCSS {}
+***/
+
+
+
+html, h1, form, legend, ol, li {
+	margin: 0;
+	padding: 0;
+}
+fieldset, {
+  margin: 12px;
+  padding: inherit;
+  padding-top: 23px;
+}
+td {
+       padding: 0.1em;
+         margin-bottom: 1%;
+}
+
+
+.fixed-persinput {
+  
+    width: 15em;
+}
+.fixed-persinput
+{
+   -webkit-transition: all 0.30s ease-in-out;
+     -moz-transition: all 0.30s ease-in-out;
+     -ms-transition: all 0.30s ease-in-out;
+     -o-transition: all 0.30s ease-in-out;
+     outline: none;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     width: 100%;
+     background: #fff;
+     margin-bottom: 1%;
+     border: 2px solid #666;
+     padding: 2%;
+     color: #555;
+     font: 95% Arial, Helvetica, sans-serif;
+}
+.fixed-persinput:focus {
+  box-shadow: 0 0 5px #8EF774;
+     padding: 2%;
+     border: 2px solid #FA8B2A;}
+     
+  
+.fixed-spersinput {
+  
+    width: 3em;
+}
+.fixed-spersinput
+{
+   -webkit-transition: all 0.30s ease-in-out;
+     -moz-transition: all 0.30s ease-in-out;
+     -ms-transition: all 0.30s ease-in-out;
+     -o-transition: all 0.30s ease-in-out;
+     outline: none;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     width: 10%;
+     background: #fff;
+     margin-bottom: 1%;
+     border: 2px solid #666;
+     padding: 2%;
+     color: #555;
+     font: 95% Arial, Helvetica, sans-serif;
+}
+.fixed-spersinput:focus {
+  box-shadow: 0 0 5px #8EF774;
+     padding: 2%;
+     border: 2px solid #FA8B2A;}
+   
+
+.profileCSS
+{
+   
+   /*  outline: none;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;*/
+     width: 100%;
+     background: #D7DAE0;
+     margin-bottom: 1%;
+     border: 0px solid #666;
+     padding: 2px;
+     color: #000;
+     font: 95% Arial, Helvetica, sans-serif;
+}
+table.profilePics
+{
+	/*background-color: #666;*/ /*grau*/
+	background: none;
+  border: 0px; 
+  position: relative;
+  padding: 1%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+ 
+}
+td.profilePics
+{
+		background-color: #000;
+  border: 5px;
+  border-color: #D7DAE0;
+  border-style: double;
+ /* padding: 5%;
+  margin: 22px;*/
+   overflow: hidden;
+  /*  width: 250px;
+    height: 250px;*/
+ /* display: block;*/
+  display: inline-table;
+    margin-left: -7%;
+    margin-right: auto;
+   position: inherit; 
+}
+
+.profileCat
+{
+   
+   /*  outline: none;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;*/
+     width: 100%;
+     background: #CFCFFC; /* #FCCFF7; /* #CDEEF7; /*die Farbe der Fugen zwischen den Platten*/
+    /* margin-bottom: 1%;*/
+     border: 0px solid #666;
+     /*padding: 2px;*/
+     color: #555;
+     font: 95% Arial, Helvetica, sans-serif;
+}
+
+td.profileCat
+{
+	border: 0px;
+	white-space: nowrap;
+	overflow: hidden;
+	 padding: 3%;
+	 padding-right: 8px;
+     color: #666;
+     font: 120% Arial, Helvetica, sans-serif;	
+     font-weight: 600;
+     background-color: none;
+     width: 200%;
+      /*width: 888px;*/
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+td.profileCSS {
+		 border-collapse: collapse;
+
+}
+
+
+.profilewbs2 {
+border: 0px solid #d9d4e7;
+background-image: url(../images/borderProfilegreyblue.png); /*Farbübergangsstreifen für Rundung am oberen Rand*/
+background-repeat:repeat-x; 
+background-color: #d9d4e7; /*Selbe Farbe wie untere Kante des Farbübergangsstreifens*/
+padding: 2px 2px;
+	padding-right: 5px;
+font-family: Verdana, Arial, sans-serif;
+font-size: 100%;
+font-weight: 500;
+padding-left: 2%;
+}
+
+.profilePicPad {
+border: 0px solid #d9d4e7;
+background-image: url(../images/borderProfilegreyblue.png); /*Farbübergangsstreifen für Rundung am oberen Rand*/
+background-repeat:repeat-x; 
+background-color: #d9d4e7; /*Selbe Farbe wie untere Kante des Farbübergangsstreifens*/
+padding: 1px 23px 1px 1px;
+
+padding-left: 2%;
+
+}
+
+.DaylyWeeklyTexts {
+border: 0px solid #d9d4e7;
+
+background-color: #d9d4e7; /*Selbe Farbe wie untere Kante des Farbübergangsstreifens*/
+padding: 1px 23px 1px 1px;
+
+padding-left: 2%;
+font-family: Verdana, Arial, sans-serif;
+font-size: 111%;
+font-weight: 400;
+
+}
+/*
+td.contentgrid {
+  border-collapse: collapse;
+  border-bottom: 3px solid #FF8450;
+padding-left: 5%;
+}
+*/
+tr.contentgrid {
+ background-color: #ECECEC;
+  border-bottom: 5px solid #EFF53C;
+  padding: 5%;
+  margin: 22px;
+}
+
+td.profileData{
+  padding: 3%;
+     color: #555;
+     font: 110% Arial, Helvetica, sans-serif;
+     width:36em;
+     
+}
+
+td.profileDataBlue{
+  padding: 3%;
+     color: #555;
+     font: 110% Arial, Helvetica, sans-serif;
+    font-weight: 800;
+	width: 4em;
+	border: 1px solid;
+	border-color: rgb(0, 0, 255);
+	
+	-moz-column-width: 4em;
+	-webkit-column-width: 4em;
+	column-width: 4em;
+     }
+     
+td.profileDataRed{
+  padding: 3%;
+     color: #555;
+     font: 110% Arial, Helvetica, sans-serif;
+     
+     font-weight: 800;
+	width: 4em;
+	border: 1px solid;
+	border-color: rgb(255, 0, 0);
+	
+	-moz-column-width: 4em;
+	-webkit-column-width: 4em;
+	column-width: 4em;
+     
+}
+td.profilePics{
+width: 100%;
+}
+
+.fixed-input {
+  
+    width: 16em;
+}
+.fixed-input
+{
+   -webkit-transition: all 0.30s ease-in-out;
+     -moz-transition: all 0.30s ease-in-out;
+     -ms-transition: all 0.30s ease-in-out;
+     -o-transition: all 0.30s ease-in-out;
+     outline: none;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     width: 100%;
+     background: #fff;
+     
+     border: 1px solid #ccc;
+     padding: 1%;
+     color: #555;
+     font: 95% Arial, Helvetica, sans-serif;
+}
+.fixed-input:focus {
+  box-shadow: 0 0 5px #8EF774;
+     padding: 1%;
+     border: 2px solid #8EF774;}
+.fixed-inputRED
+{
+   -webkit-transition: all 0.30s ease-in-out;
+     -moz-transition: all 0.30s ease-in-out;
+     -ms-transition: all 0.30s ease-in-out;
+     -o-transition: all 0.30s ease-in-out;
+     outline: none;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     width: 100%;
+     background: #fff;
+     
+     border: 1px solid #ccc;
+     padding: 1%;
+     color: #555;
+     font: 95% Arial, Helvetica, sans-serif;
+}
+.fixed-inputRED:focus {
+  box-shadow: 0 0 5px #8EF774;
+     padding: 1%;
+     border: 2px solid #F51432;}
+
+.fixed-inputGREEN
+{
+   -webkit-transition: all 0.30s ease-in-out;
+     -moz-transition: all 0.30s ease-in-out;
+     -ms-transition: all 0.30s ease-in-out;
+     -o-transition: all 0.30s ease-in-out;
+     outline: none;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     width: 100%;
+     background: #fff;
+     
+     border: 1px solid #ccc;
+     padding: 1%;
+     color: #555;
+     font: 95% Arial, Helvetica, sans-serif;
+}
+.fixed-inputGREEN:focus {
+  box-shadow: 0 0 5px #8EF774;
+     padding: 1%;
+     border: 2px solid #0594FA;}
+
+#nearness{
+	   /*  display: block;*/
+	     width: 4em;
+	    /* height: 120px;*/
+	}
+#risk{
+/*display: block;*/
+	     width: 4em;
+	     /*height: 120px;*/
+}	
+#position{
+display: block;
+	     width: 40em;
+	     height: 6em;
+}	
+#skills{
+display: block;
+	     width: 40em;
+	    height: 6em;
+}	
+#comment{
+display: block;
+	     width: 40em;
+	     height: 6em;
+}	
+#interestedin{display: block;
+	     width: 40em;
+	     height: 6em;}
+#linklist{display: block;
+	     width: 40em;
+	     height: 6em;}
+
+div.highlights p{
+
+ background-color: #ECECEC;
+ margin: 0.2em;
+  color: #666;
+}

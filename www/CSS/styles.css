@@ -1,0 +1,569 @@
+h3 {
+padding: 3px 5px 5px 3px;
+ width: 100%;
+}
+
+nav {
+    width: 100%;
+    z-index: 50;
+     background-color: #666666;
+}
+nav ul {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+nav ul:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+nav ul,nav ul li{
+    background-color: #666666;
+}
+nav ul li {
+    list-style: none;
+    float:left;
+
+  border-right: 1px solid #dfdfdf;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #333;
+    padding: 0.6em 1.1em 0.6em 1.1em; /*14px 34px 14px 34px;*/
+	z-index: 1;
+    transition: background 0.3s ease-out; /* explorer 10 */
+    -webkit-transition: background 0.3s ease-out; /* chrome & safari */
+    -moz-transition: background 0.3 ease-out; /* firefox */
+    -o-transition: background 0.3 ease-out; /* opera */
+    font-family: Verdana, Arial, sans-serif;
+}
+
+nav ul li.cat1:hover a, nav ul li.cat1:hover > ul li a  {
+    background-color: #E6DD00;
+}
+
+/* questrep start*/
+nav ul li.flagQR a, nav ul li.flagQR > ul li a, h3.flagQR  {
+	 display: block;
+ background:linear-gradient(25deg,rgba(211, 43, 169, 1),rgba(240, 47, 192, 1)); 
+  /* max-width: 28em;*/
+  		white-space: pre-line
+	/*box-shadow: 10px 10px 5px #888888;*/
+}
+
+
+nav ul li.flagQR:hover a, nav ul li.flagQR:hover > ul li a  {
+   display: block;
+   /*max-width: 28em;*/
+    background: rgba(125,038,205,0.8);
+    box-shadow: 10px 10px 5px #888888;
+	z-index: 40;
+   
+}
+/* questrep end*/
+/* Status Statement start*/
+nav ul li.flagStat a, nav ul li.flagStat > ul li a, h3.flagStat {
+	  display: block;
+      background:linear-gradient(25deg, rgba(115, 158, 194, 1), rgba(115, 158, 194, 1)); 
+       /* max-width: 28em;*/
+  		white-space: pre-line
+	/*box-shadow: 10px 10px 5px #888888;*/
+}
+nav ul li.flagStat:hover a, nav ul li.flagStat:hover > ul li a {
+	  display: block;
+    background:/*linear-gradient(0deg, yellow 5%, orange 70%)*/ rgba(94, 196, 255,0.7);
+    box-shadow: 10px 10px 5px #888888;
+}
+/*Status Statement end*/
+
+
+
+/* I-Message start*/
+nav ul li.flagIM a, nav ul li.flagIM > ul li a, h3.flagIM {
+	  display: block;
+      background:linear-gradient(25deg, rgba(255, 238, 0, 1), rgba(255, 238, 0, 1)); 
+       /* max-width: 28em;*/
+  		white-space: pre-line
+	/*box-shadow: 10px 10px 5px #888888;*/
+}
+nav ul li.flagIM:hover a, nav ul li.flagIM:hover > ul li a {
+	  display: block;
+    background:/*linear-gradient(0deg, yellow 5%, orange 70%)*/ rgba(255,165,000,0.7);
+    box-shadow: 10px 10px 5px #888888;
+}
+/*I-Message end*/
+
+/*Appell start*/
+nav ul li.flagAP a, nav ul li.flagAP > ul li a, h3.flagAP {
+	  display: block;
+     background:linear-gradient(25deg,rgba(252, 41, 41, 1), rgba(252, 41, 41, 1)); 
+     /* max-width: 28em;*/
+  		white-space: pre-line
+	/*box-shadow: 10px 10px 5px #888888;*/
+}
+nav ul li.flagAP:hover a, nav ul li.flagAP:hover > ul li a {
+	  display: block;
+    background: rgba(255,048,048,0.8);
+    box-shadow: 10px 10px 5px #888888;
+}
+
+/* Appell end*/
+
+
+/* btn use n send  QR START*/
+nav ul li.flagQR input,  nav ul li.flagQR > ul li input  {
+-moz-box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfbdfa), color-stop(1, #bc80ea));
+	background:-moz-linear-gradient(top, #dfbdfa 5%, #bc80ea 100%);
+	background:-webkit-linear-gradient(top, #dfbdfa 5%, #bc80ea 100%);
+	background:-o-linear-gradient(top, #dfbdfa 5%, #bc80ea 100%);
+	background:-ms-linear-gradient(top, #dfbdfa 5%, #bc80ea 100%);
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfbdfa', endColorstr='#bc80ea',GradientType=0);
+	background-color:#dfbdfa;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Verdana, Arial, sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	width: 100%;
+	text-shadow:0px 1px 0px #9752cc;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+/* btn QR on mouse over*/
+nav ul li.flagQR input:hover,  nav ul li.flagQR > ul li input:hover {
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc80ea), color-stop(1, #dfbdfa));
+	background:-moz-linear-gradient(top, #bc80ea 5%, #dfbdfa 100%);
+	background:-webkit-linear-gradient(top, #bc80ea 5%, #dfbdfa 100%);
+	background:-o-linear-gradient(top, #bc80ea 5%, #dfbdfa 100%);
+	background:-ms-linear-gradient(top, #bc80ea 5%, #dfbdfa 100%);
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc80ea', endColorstr='#dfbdfa',GradientType=0);
+	background-color:#bc80ea;	
+	width: 100%;
+	box-shadow: 2px 2px 2px #888888;
+	
+}
+
+/* textarea  QR START*/
+nav ul li.flagQR textarea,  nav ul li.flagQR > ul li textarea  {
+box-shadow: 10px 10px 5px #888888;
+width: 99%;
+}
+
+
+
+/* btn use n send  Stat START*/
+nav ul li.flagStat input,  nav ul li.flagStat > ul li input  {
+-moz-box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #739EC2), color-stop(1, #7EACD2));
+	background:-moz-linear-gradient(top, #739EC2 5%, #7EACD2 100%);
+	background:-webkit-linear-gradient(top, #739EC2 5%, #7EACD2 100%);
+	background:-o-linear-gradient(top, #739EC2 5%, #7EACD2 100%);
+	background:-ms-linear-gradient(top, #739EC2 5%, #7EACD2 100%);
+	background:linear-gradient(to bottom, #739EC2 5%, #7EACD2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfbdfa', endColorstr='#bc80ea',GradientType=0);
+	background-color:#dfbdfa;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Verdana, Arial, sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	width: 100%;
+	text-shadow:0px 1px 0px #9752cc;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+/* btn Satta on mouse over*/
+nav ul li.flagStat input:hover,  nav ul li.flagStat > ul li input:hover {
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7EACD2), color-stop(1, #739EC2));
+	background:-moz-linear-gradient(top, #7EACD2 5%, #739EC2 100%);
+	background:-webkit-linear-gradient(top, #7EACD2 5%, #739EC2 100%);
+	background:-o-linear-gradient(top, #7EACD2 5%, #739EC2 100%);
+	background:-ms-linear-gradient(top, #7EACD2 5%, #739EC2 100%);
+	background:linear-gradient(to bottom, #7EACD2 5%, #739EC2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc80ea', endColorstr='#dfbdfa',GradientType=0);
+	background-color:#bc80ea;	
+	width: 100%;
+	box-shadow: 2px 2px 2px #888888;
+	
+}
+
+/* textarea  Stat START*/
+nav ul li.flagStat textarea,  nav ul li.flagStat > ul li textarea  {
+box-shadow: 10px 10px 5px #888888;
+width: 99%;
+}
+
+/* btn orange IM START*/
+nav ul li.flagIM input,  nav ul li.flagIM > ul li input  {
+
+-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25));
+	background:-moz-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	background:-webkit-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	background:-o-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	background:-ms-linear-gradient(top, #ffc477 5%, #fb9e25 100%);
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25',GradientType=0);
+	background-color:#ffc477;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Verdana, Arial, sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	width: 100%;
+	text-shadow:0px 1px 0px #cc9f52;
+	
+	box-shadow: 10px 10px 5px #888888;
+
+}
+
+/* btn IM on mouse over*/
+nav ul li.flagIM input:hover,  nav ul li.flagIM > ul li input:hover {
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477));
+	background:-moz-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+	background:-webkit-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+	background:-o-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+	background:-ms-linear-gradient(top, #fb9e25 5%, #ffc477 100%);
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477',GradientType=0);
+	background-color:#fb9e25;
+	width: 100%;
+	box-shadow: 2px 2px 2px #888888;
+	
+}
+
+/* textarea  IM START*/
+nav ul li.flagIM textarea,  nav ul li.flagIM > ul li textarea  {
+box-shadow: 10px 10px 5px #888888;
+width: 99%;
+}
+
+
+
+/* btn red AP START*/
+nav ul li.flagAP input,  nav ul li.flagAP > ul li input  {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fc8d83), color-stop(1, #e4685d));
+	background:-moz-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:-webkit-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:-o-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:-ms-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fc8d83', endColorstr='#e4685d',GradientType=0);
+	background-color:#fc8d83;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Verdana, Arial, sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+	width: 100%;
+	box-shadow: 10px 10px 5px #888888;
+	
+}
+
+/* btn AP on mouse over*/
+nav ul li.flagAP input:hover,  nav ul li.flagAP > ul li input:hover {
+
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e4685d), color-stop(1, #fc8d83));
+	background:-moz-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:-webkit-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:-o-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:-ms-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4685d', endColorstr='#fc8d83',GradientType=0);
+	background-color:#e4685d;
+	width: 100%;
+	
+	box-shadow: 2px 2px 2px #888888;
+	
+}
+
+/* textarea  AP START*/
+nav ul li.flagAP textarea,  nav ul li.flagAP > ul li textarea  {
+box-shadow: 10px 10px 5px #888888;
+width: 99%;
+}
+
+/* input-tag vom Eingabefeld ENDE*/
+
+
+
+nav ul li:hover > a {
+    color: #FAFAFA;
+    z-index: 40;
+}
+nav ul li:hover > ul {
+    visibility: visible;
+    z-index: 30;
+}
+
+nav ul li ul{
+    display: inline;
+    visibility: hidden;
+    position: absolute;
+    padding:0px;
+}
+nav ul li ul li{
+	float: none;
+}
+nav ul li ul li a {
+    color: #FAFAFA;
+}
+nav ul li ul li a:hover{
+	color: #333;
+	background-color: #FAFAFA !important;
+	z-index: 35;
+}
+
+.sendtable{
+font-family:Lato, Jura, Ubuntu, 'Courier New', Arial;
+font-size: 0.75em;
+font-weight: bold;
+position: relative; margin-left: 20%;
+z-index:2; 
+}
+
+.senden{
+z-index: 1;
+}
+.sendrecsubtble{
+z-index: 8;
+}
+
+.glogin1{
+z-index: 7
+}
+
+#statCFLGstatement{
+  	
+   font-size: 0.8em;
+		font-family: Verdana, Arial, sans-serif;
+		font-weight: 500;
+		padding: 2px 2px 2px 2px;
+ 		background:linear-gradient(25deg,rgba(57, 203, 194, 1),rgba(115, 158, 194, 1)); 
+	box-shadow: 5px 5px 2px #888888;
+}
+
+
+#stCFLGstatement{
+  	
+   font-size: 0.8em;
+		font-family: Verdana, Arial, sans-serif;
+		font-weight: 500;
+		padding: 2px 2px 2px 2px;
+ 		background:linear-gradient(25deg,rgba(57, 203, 194, 1),rgba(115, 158, 194, 1)); 
+	box-shadow: 5px 5px 2px #888888;
+}
+
+#qrCFLGstatement{
+  	
+   font-size: 0.8em;
+		font-family: Verdana, Arial, sans-serif;
+		font-weight: 500;
+		padding: 2px 2px 2px 2px;
+ 		background:linear-gradient(25deg,rgba(215, 44, 168, 1),rgba(125,038,205,1)); 
+	box-shadow: 5px 5px 2px #888888;
+}
+#imCFLGstatement{
+	
+   font-size: 0.8em;  	
+ 
+		font-family: Verdana, Arial, sans-serif;
+		font-weight: 500;
+		padding: 2px 2px 2px 2px;
+      background:linear-gradient(25deg, rgba(255, 255, 0, 1), rgba(255, 201, 0, 1)); 
+		box-shadow: 5px 5px 2px #888888;
+}
+#apCFLGstatement{
+ 	
+   font-size: 0.8em;
+  
+		font-family: Verdana, Arial, sans-serif;
+		font-weight: 500;
+		padding: 2px 2px 2px 2px;
+      background:linear-gradient(25deg,rgba(226, 0, 0, 1), rgba(255,048,048,1)); 
+		box-shadow: 5px 5px 2px #888888;
+}
+
+#wasSentsuccessfullyDialog{
+	display: none;	
+	background-color:#00CCFF;
+	color:#01010D;
+	font-size: 90%;}
+
+#IsMissingDialogStat{
+	display: none;	
+	background-color:#87ABFF;
+	color:#01010D;
+	font-size: 90%;}
+
+
+#IsMissingDialogQR{
+	display: none;	
+	background-color:#C184F0;
+	color:#01010D;
+	font-size: 90%;}
+
+#IsMissingDialogIM{
+	display: none;	
+	background-color:#F7D23E;
+	color:#6E040B;
+	font-size: 90%;}
+
+
+#IsMissingDialogAP{
+	display: none;	
+	background-color:#FA8E96;
+	color:#290B02;
+	font-size: 90%;}
+
+
+
+#SendSubDialog{
+	display: none;	
+	background-color:#B1F33E;
+	color:#000000;
+	font-size: 90%;}
+
+
+#SendSubDialogRec{
+	display: none;	
+	background-color:#FAC802;
+	color:#000000;
+	font-size: 90%;}	
+
+#IsNewDialogStatStat{
+	display: none;	
+	background-color:#87ABFF;
+	color:#01010D;
+	font-size: 90%;}	
+
+#IsNewDialogStat{
+	display: none;	
+	background-color:#87ABFF;
+	color:#01010D;
+	font-size: 90%;}
+
+#IsNewDialogQR{
+	display: none;	
+	background-color:#C184F0;
+	color:#01010D;
+	font-size: 90%;}
+	
+
+#IsNewDialogIM{
+	display: none;	
+	background-color:#F7D23E;
+	color:#6E040B;
+	font-size: 90%;}
+
+
+#IsNewDialogAP{
+	display: none;	
+	background-color:#FA8E96;
+	color:#290B02;
+	font-size: 90%;}
+	
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url('../fonts/noto-cyrillic-ext.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url('../fonts/noto-cyrillic.woff2') format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url('../fonts/noto-devanagari.woff2') format('woff2');
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'),url('../fonts/noto-greek-ext.woff2')  format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url('../fonts/noto-greek.woff2') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url('../fonts/noto-vietnamese.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url('../fonts/noto-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+} 

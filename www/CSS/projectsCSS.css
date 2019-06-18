@@ -1,0 +1,77 @@
+html, body, h1, form, fieldset, legend, ol, li {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #ffffff;
+	color: #111111;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 20px;
+}
+
+form#selector {
+	background: #9cbc2c;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	padding: 40px;
+	width: 400px;
+	  background:linear-gradient(25deg, rgba(255,165,000,0.2), rgba(255,165,000,0.7)); 
+	box-shadow: 10px 10px 5px #888888;
+	position:absolute;margin:auto;margin-top:-150px;top:50%;margin-left:-200px; left:50%; width:50%;vertical-align:middle;text-align:center;
+}
+
+form#selector fieldset {
+	border: none;
+	margin-bottom: 10px;
+	vertical-align:middle;text-align:center;
+}
+form#selector fieldset:last-of-type {
+	margin-bottom: 0;
+}
+
+form#selector legend {
+	color: #384313;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-shadow: 0 1px 1px #c0d576;
+}
+
+form#selector label {
+	float: left;
+	font-size: 13px;
+	width: 110px;
+}
+form#selector fieldset fieldset label {
+	background:none no-repeat left 50%;
+	line-height: 20px;
+	padding: 0 0 0 30px;
+	width: auto;
+}
+
+form#selector fieldset fieldset label:hover {
+	cursor: pointer;
+}
+
+form#selector button {
+	background: #384313;
+	border: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	color: #ffffff;
+	display: block;
+	font: 18px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	text-transform: uppercase;
+}
+form#selector button:hover {
+	background: #1e2506;
+	cursor: pointer;
+}
+

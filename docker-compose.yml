@@ -1,0 +1,37 @@
+## in der v12: hinzugefügt wurde:  "- MYSQL_HOST=localhost" für beide DBs, plus der Port der metaDB ist nun hostseitig: 3307
+## Frage: parallel dazu gibts noch das dockerfile mit dem php und dem apache - über docker ps tauchen diese jedoch nicht auf. wieso nicht?
+version: "3.1"
+services:
+    www:
+        build: .
+        ports: 
+            - "8001:80"
+        container_name: webapp
+        volumes:
+            - ./www:/var/www/html/
+        links:
+            - cboardDB
+        networks:
+            - default
+    cboardDB:
+        image: mysql:8.0
+        container_name: cboardDB
+        ports: 
+            - "3307:3306"
+        command: --default-authentication-plugin=mysql_native_password
+        environment:
+            - MYSQL_DATABASE=cboardDB
+            - MYSQL_USER=testuser
+            - MYSQL_PASSWORD=testpw
+            - MYSQL_ROOT_PASSWORD=testpw
+            - MYSQL_HOST=localhost 
+        volumes:
+            - ./sqldump:/docker-entrypoint-initdb.d
+            - ./sqlconf/cboardDB:/etc/mysql/conf.d
+            - ./persistentDBc:/var/lib/mysql
+        networks:
+            - default
+## hier war das phpmyadmin - zum Testen in / ab der v6 mal weggelassen... 
+
+volumes:
+    persistentDBc:

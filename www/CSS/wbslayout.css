@@ -1,0 +1,210 @@
+.wbs1 {
+border: 1px solid #0002fe;
+background-image: url(../images/wbsL1.png);
+background-repeat:repeat-x; 
+background-color: #0002fe;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+padding-left: 2%;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 100%;
+font-weight: 500;
+}
+
+
+.wbs2 {
+border: 1px solid #85fd82;
+background-image: url(../images/wbsL2.png);
+background-repeat:repeat-x; 
+background-color: #85fd82;
+padding: 2px 2px;
+	padding-right: 5px;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 100%;
+font-weight: 500;
+padding-left: 2%;
+}
+
+
+.wbs3 {
+border: 1px solid #fefd03;
+background-image: url(../images/wbsL3.png);
+background-repeat:repeat-x; 
+background-color: #fefd03;
+padding: 2px 2px;
+	padding-right: 5px;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 100%;
+font-weight: 500;	
+padding-left: 2%;
+}
+
+
+.wbs4 {
+border: 1px solid #fd0100;
+background-image: url(../images/wbsL4.png);
+background-repeat:repeat-x; 
+background-color: #fd0100;
+padding: 2px 2px;
+	padding-right: 5px;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 100%;
+font-weight: 500;	
+padding-left: 2%;
+}
+
+
+.wbs5 {
+border: 1px solid #0bb4fa;
+background-image: url(../images/wbsL5.png);
+background-repeat:repeat-x; 
+background-color: #0bb4fa;
+padding: 2px 2px;
+	padding-right: 5px;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 100%;
+font-weight: 500;	
+padding-left: 2%;
+}
+
+
+.wbs6 {
+border: 1px solid #44860e;
+background-image: url(../images/wbsL6.png);
+background-repeat:repeat-x; 
+background-color: #44860e;
+padding: 2px 2px;
+	padding-right: 5px;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 100%;
+font-weight: 500;	
+padding-left: 2%;
+}
+
+
+.wbs7 {
+border: 1px solid #f0c33d;
+background-image: url(../images/wbsL7.png);
+background-repeat:repeat-x; 
+background-color: #f0c33d;
+padding: 2px 2px;
+	padding-right: 5px;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 100%;
+font-weight: 500;	
+padding-left: 2%;
+}
+
+.wbs1txt {
+margin-top: 11px;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 133%;
+/*font-weight: bold;*/
+color: #FAFA0C;
+}
+.wbs2txt {
+margin-top: 2px;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 120%;
+/*font-weight: bold;*/
+color: #000000;
+}
+.wbs3txt {
+margin-top: 2px;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 120%;
+/*font-weight: bold;*/
+color: #000000;
+}
+
+.wbs4txt {
+margin-top: 2px;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 120%;
+/*font-weight: bold;*/
+color: #000000;
+}
+
+.wbs5txt {
+margin-top: 2px;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 120%;
+/*font-weight: bold;*/
+color: #000000;
+}
+
+.wbs6txt {
+margin-top: 2px;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 120%;
+/*font-weight: bold;*/
+color: #000000;
+}
+
+.wbs7txt {
+margin-top: 2px;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 120%;
+/*font-weight: bold;*/
+color: #000000;
+}
+
+.wbsreAW1 {
+  font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+  font-size: 100%;
+  padding-left: 5px;
+  color: #F7F68D;
+}
+
+
+.wbsreAW2 {
+  font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+  font-size: 100%;
+  padding-left: 5px;
+}
+
+.wbsreAW3 {
+  font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+  font-size: 100%;
+  padding-left: 5px;
+}
+
+.wbsreAW4 {
+  font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+  font-size: 100%;
+  padding-left: 5px;
+}
+
+.wbsreAW5 {
+  font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+  font-size: 100%;
+  padding-left: 5px;
+}
+
+.wbsreAW6 {
+  font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+  font-size: 100%;
+  padding-left: 5px;
+}
+
+.wbsreAW7 {
+  font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+  font-size: 100%;
+  padding-left: 5px;
+}
+
+.wbslayouttxt {
+margin-top: 7px;
+font-family: Helvetica,Arial,DejaVu Sans, Liberation Sans,Freesans,sans-serif;
+font-size: 120%; 
+}
+
+tr td p {
+ font-size: 1em;
+     line-height: 1.07em;
+     height: 2.2em;
+     overflow: hidden;
+     margin-bottom: 4px;
+
+}

@@ -1,0 +1,103 @@
+
+
+.wbsL1 {
+border: 1px solid #2a9b07;
+height: 20px;
+font-size: 14px;
+font-family: tahoma;
+background-color: #2a9b07;
+padding: 2px 2px ;
+	padding-right: 5px;
+	
+padding-left: 2%;
+}
+.wbsL1:hover {
+border: 1px solid #2a9b07;
+height: 20px;
+font-size: 14px;
+font-family: tahoma;
+background-color: #2a9b07;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+padding-left: 2%;
+}
+
+.wbsL2 {
+border: 1px solid #F0C33D;
+height: 20px;
+font-size: 14px;
+font-family: tahoma;
+background-color: #F0C33D;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+/*margin-top: 1px;*/
+padding-left: 2%;
+}
+
+
+.wbsL3 {
+border: 1px solid #714FF8;
+height: 20px;
+font-size: 14px;
+font-family: tahoma;
+background-color: #714FF8;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+padding-left: 2%;
+}
+
+
+.wbsL4 {
+border: 1px solid #FA0D30;
+height: 20px;
+font-size: 14px;
+font-family: tahoma;
+background-color: #FA0D30;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+padding-left: 2%;
+}
+
+
+.wbsL5 {
+border: 1px solid #fa550d;
+height: 20px;
+font-size: 14px;
+font-family: tahoma;
+background-color: #fa550d;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+padding-left: 2%;
+}
+
+
+.wbsL6 {
+border: 1px solid #ffdf04;
+height: 20px;
+font-size: 14px;
+font-family: tahoma; 
+background-color: #ffdf04;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+padding-left: 2%;
+}
+
+
+.wbsL7 {
+border: 1px solid #e806f6;
+height: 20px;
+font-size: 14px;
+font-family: tahoma;
+background-color: #e806f6;
+padding: 2px 2px;
+	padding-right: 5px;
+	
+padding-left: 2%;
+}
+

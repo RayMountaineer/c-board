@@ -1,0 +1,15 @@
+OPEN C-BOARD :: OpenSource version of the C-BOARD - without the CYBER-SCRUM
+---------------------------------------------------------------------------
+
+License
+
+The Open Source Guidelines for the Open-Source-Version of the C-BOARD
+1.) This version of the C-BOARD Open Source Software - NOT free software
+2.) You can modify & change the code of the Open-Source-Version of the C-BOARD for your needs - as long as you send us a well-documented version of this code, so we can decide if we add your mod or make your code available to others as well, so we can all benefit from further improvements.
+3.) You are not allowed to make distributions of the C-BOARD code in any way, in any form.
+4.) You are allowed to make copies for your own needs.
+
+
+ 
+
+

@@ -1,0 +1,137 @@
+
+#factMess{
+    
+  overflow: auto;
+  height: 7em; 
+  	margin: 0.2em auto 2em;
+	width: 55em;  
+}
+::-webkit-input-placeholder  { color:#000500; } /* Webkit */
+:-moz-placeholder { color:#000500; }  /* Firefox <= 18 */
+::-moz-placeholder { color:#000500; }  /* Firefox >= 19 */
+:-ms-input-placeholder {  color: #000500; } /* Internet Explorer */
+
+#cflxtable{
+	border-collapse: separate;
+	border-spacing: 0.3em;
+	width: 44em;
+}
+
+ a {color:#000666;}
+ /*a:link {color:#190666;}
+ a:visited {color:#340666;}
+ a:hover {color:#FA2E00;}
+ a:active {color:#FFFFFF;} */
+
+html, body, h1, form, fieldset, legend, ol, li {
+/*	margin: 0;
+	padding: 0;*/
+}
+body {
+	/*
+background-color: rgb(74, 95, 74);*/
+ background-image: url("../images/earth_2200.jpg");
+
+	
+	color: #111111;
+/*	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #384313;*/
+
+font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	padding: 1.5em;
+}
+ 
+/*div#outer{margin: 0 auto;
+	 
+	margin-bottom: 50px;	
+	max-width: 350px;		
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	right: 0px;
+	z-index: 1000;
+    width:100%;}*/
+
+div#cflx {
+	
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	padding: 40px;
+	width: 850px;
+	background:linear-gradient(25deg, rgba(0, 2, 254,0.2), rgba(0, 2, 254,0.7)); 
+	box-shadow: 10px 10px 5px #888888;
+	margin-bottom: 50px;	
+	max-width: 850px;		
+	position: absolute;
+	top: 80px;
+	left:0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	 
+ 
+	/*	position:fixed;
+		top: 50%;
+  		left: 50%;
+  margin-top: -400px;
+  margin-left: -200em;
+		margin:auto;*/
+		 
+		 /*  vertical-align:middle;text-align:left;*/
+		}
+
+form#cflx fieldset {
+	border: none;
+	margin-bottom: 10px;
+	vertical-align:middle;text-align:left;
+}
+form#cflx fieldset:last-of-type {
+	margin-bottom: 0;
+}
+
+form#cflx legend {
+	color: #384313;
+
+font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-size: 1.3em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	
+	/*font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-shadow: 0 1px 1px #c0d576;*/
+}
+
+form#cflx label {
+	float: left;
+font-size: 1.3em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;	
+	/*font-size: 13px;
+	width: 110px;*/
+}
+form#cflx fieldset fieldset label {
+	float: left;
+font-size: 0.8em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;	
+	background:none no-repeat left 50%;
+	line-height: 1.5em;
+	padding: 0 0 0 2em;
+	width: auto;
+}
+
+form#cflx fieldset fieldset label:hover {
+	cursor: pointer;
+}
+
+
